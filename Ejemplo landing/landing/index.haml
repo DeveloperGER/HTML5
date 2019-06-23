@@ -1,0 +1,255 @@
+!!! 5
+%html
+	%head
+		%link{href:"./app.css",rel:"stylesheet"}
+		%link{href:"https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700",rel:"stylesheet"}
+		%meta{charset:"utf-8"}
+		%title Taller Crea un landing page desde cero con HTML5 y CSS3
+	%body
+		.workshop-background
+			.row.center-xs
+				.col-xs-10.col-sm-8.col-md-6
+					.box
+						%header.white-text.text-center
+							.inline-block
+								%img{src:"./imgs/tl.png",height:60}
+								.init
+									Iniciamos en
+								.restant-time
+									%span
+										01
+										%span días
+									%span :
+									%span
+										38
+										%span horas
+									%span :
+									%span
+										20
+										%span minutos
+							%h1.title.slim Crea un landing page desde cero con HTML5 y CSS3
+							.top-space
+								%a.btn.btn--yellow.uppercase.black-text{href:"#subscribe"} Tomar taller
+		.row.center-xs.relative.main
+			.col-xs.col-sm-8
+				.box
+					.card.move-up.padding-50.z-depth
+						.container-80.center-block.black-text
+							.row.center-xs
+								.col-xs-12.col-sm-6
+									.box.text-left
+										%p.bold ¿Qué voy a aprender?
+										%ul.bullet-points
+											%li Mejores prácticas Frontend
+											%li Cómo pasar imágenes a web
+											%li Consejos para maquetar
+											%li Consejos para CSS mantenible
+											%li Escribir código limpio
+											%li Responsive para landing
+								.col-sm-1.separator
+								.col-xs-12.col-sm.text-right
+									.box
+										%p.bold ¿Cómo funcionan los talleres live?
+										%p
+											Una vez que estés suscrito, deberás ingresar a tu cuenta de CódigoFacilito a la hora indicada en esta página y podrás ver al profesor programar un proyecto completo en vivo durante 2 horas y después una sesion de Q&A de 1 hora. El Taller Live quedará grabado para suscriptores premium
+						.video-container.top-space.bottom-space
+							%iframe{id:"player", frameborder:"0", allowfullscreen:"1", title:"YouTube video player", width:"700", height:"400", src:"https://www.youtube.com/embed/uZ6trZUTlNU?enablejsapi=1&amp;origin=http%3A%2F%2Fcodigofacilito.com"}
+						.top-space--3
+							.container-80.center-block
+								.row.middle-xs
+									.col-md-1.col-xs-3.col-sm-2
+										.box
+											%img{src:"http://pbs.twimg.com/profile_images/684941063891492865/pA3mLvyJ.jpg",class:"avatar"}
+									.col-xs.slim.text-left
+										.box
+											%p.no-margin
+												%strong Uriel Hernández,
+												Instructor
+											%p.no-margin Ingeniero en Desarrollo de Software y desarrollador web desde hace más de 6 años especializado en Ruby, Javascript y Python. Ha impartido más de 10 cursos y talleres online y en universidades en México. Actualmente es el líder en desarrollo en CódigoFacilito.
+						.container-90.top-space--3.center-block
+							.countries
+								.row.center-xs.middle-xs
+									.col-md.col-xs-12
+										.box
+											%p.no-margin Fecha del taller
+											.date
+												Sábado 2 de Abril
+									.col-md-2
+										.box
+											%img{src:"imgs/mexico.png"}
+											%p.no-margin 10:00 AM
+									.col-md-2
+										.box
+											%img{src:"imgs/argentina.png"}
+											%p.no-margin 10:00 AM
+									.col-md-2
+										.box
+											%img{src:"imgs/colombia.png"}
+											%p.no-margin 10:00 AM
+									.col-md-2
+										.box
+											%img{src:"imgs/spain.png"}
+											%p.no-margin 10:00 AM
+		.black-section
+			.row.center-xs.relative
+				.col-xs.col-sm-8.main
+					.box
+						%h2.slim.white-text.title Suscríbete hoy para tomar este Taller Live y todo nuestro contenido premium:
+						.row.center-xs
+							%article.col-xs-12.col-md-5.plan
+								.box
+									%header.green
+										%span.subtitle $
+										%span.slim.title 9
+										%span.subtitle / mes
+										%p.currency USD
+									.card
+										%h3.subtitle.text-center.green-text.slim Plan Mensual
+										.container-90.top-space.center-block
+											%ul.benefits
+												%li.row.middle-xs
+													.col-xs-1.col-add-5
+														.box
+															%img{src:"imgs/icons/play_dark.png"}
+													.col-xs-1
+													.col-xs
+														.box
+															Acceso a actualizaciones mensuales de nuevos cursos
+												%li.row.middle-xs
+													.col-xs-1.col-add-5
+														.box
+															%img{src:"imgs/icons/calendar_dark.png"}
+													.col-xs-1
+													.col-xs
+														.box
+															Acceso a actualizaciones mensuales de nuevos cursos
+												%li.row.middle-xs
+													.col-xs-1.col-add-5
+														.box
+															%img{src:"imgs/icons/screen_dark.png"}
+													.col-xs-1
+													.col-xs
+														.box
+															Acceso a talleres online para suscriptores premium
+											.actions
+												%a.btn.btn--green.white-text{href:"#"} Suscríbete hoy
+							%article.col-xs-12.col-md-5.plan
+								.box
+									%header.blue
+										%span.subtitle $
+										%span.slim.title 99
+										%span.subtitle / año
+										%p.currency USD
+									.card
+										%h3.subtitle.text-center.blue-text.slim Plan Anual
+										.container-90.top-space.center-block
+											%ul.benefits
+												%li.row.middle-xs
+													.col-xs-1.col-add-5
+														.box
+															%img{src:"imgs/icons/play_dark.png"}
+													.col-xs-1
+													.col-xs
+														.box
+															Acceso a actualizaciones mensuales de nuevos cursos
+												%li.row.middle-xs
+													.col-xs-1.col-add-5
+														.box
+															%img{src:"imgs/icons/calendar_dark.png"}
+													.col-xs-1
+													.col-xs
+														.box
+															Acceso a actualizaciones mensuales de nuevos cursos
+												%li.row.middle-xs
+													.col-xs-1.col-add-5
+														.box
+															%img{src:"imgs/icons/screen_dark.png"}
+													.col-xs-1
+													.col-xs
+														.box
+															Acceso a talleres online para suscriptores premium
+											.actions
+												%a.btn.btn--blue.white-text{href:"#"} Suscríbete hoy
+
+		.row.center-xs.relative.main
+			.col-xs.col-sm-8
+				.box
+					.row.center-xs
+						.col-xs-11.col-md-6
+							.box
+								%blockquote{class:"twitter-tweet", "data-lang":"es"}
+									%p{lang:"es", dir:"ltr"} 
+										Ahora puedes acceder a todos nuestros cursos premium por solo 9 dólares al mes ¡La mejor oferta que hemos tenido!
+										%a{href:"https://t.co/LZ73ELHr9f"}
+											https://t.co/LZ73ELHr9f
+										&mdash; Código facilito (@codigofacilito)
+										%a{href:"https://twitter.com/codigofacilito/status/653574979980623872"}
+											12 de octubre de 2015
+								%script{async:"async", src:"//platform.twitter.com/widgets.js", charset:"utf-8"}
+						.col-xs-11.col-md-6
+							.box
+								%blockquote{class:"twitter-tweet", "data-lang":"es"}
+									%p{lang:"es", dir:"ltr"} 
+										Ahora puedes acceder a todos nuestros cursos premium por solo 9 dólares al mes ¡La mejor oferta que hemos tenido!
+										%a{href:"https://t.co/LZ73ELHr9f"}
+											https://t.co/LZ73ELHr9f
+										&mdash; Código facilito (@codigofacilito)
+										%a{href:"https://twitter.com/codigofacilito/status/653574979980623872"}
+											12 de octubre de 2015
+								%script{async:"async", src:"//platform.twitter.com/widgets.js", charset:"utf-8"}
+						.col-xs-11.col-md-6
+							.box
+								%blockquote{class:"twitter-tweet", "data-lang":"es"}
+									%p{lang:"es", dir:"ltr"} 
+										Ahora puedes acceder a todos nuestros cursos premium por solo 9 dólares al mes ¡La mejor oferta que hemos tenido!
+										%a{href:"https://t.co/LZ73ELHr9f"}
+											https://t.co/LZ73ELHr9f
+										&mdash; Código facilito (@codigofacilito)
+										%a{href:"https://twitter.com/codigofacilito/status/653574979980623872"}
+											12 de octubre de 2015
+								%script{async:"async", src:"//platform.twitter.com/widgets.js", charset:"utf-8"}
+						.col-xs-11.col-md-6
+							.box
+								%blockquote{class:"twitter-tweet", "data-lang":"es"}
+									%p{lang:"es", dir:"ltr"} 
+										Ahora puedes acceder a todos nuestros cursos premium por solo 9 dólares al mes ¡La mejor oferta que hemos tenido!
+										%a{href:"https://t.co/LZ73ELHr9f"}
+											https://t.co/LZ73ELHr9f
+										&mdash; Código facilito (@codigofacilito)
+										%a{href:"https://twitter.com/codigofacilito/status/653574979980623872"}
+											12 de octubre de 2015
+								%script{async:"async", src:"//platform.twitter.com/widgets.js", charset:"utf-8"}
+		.green-section
+			.row.center-xs.relative.main
+				.col-xs.col-sm-8
+					.box
+						%p.title.white-text Únete a nuestra comunidad
+						.row.white-text
+							.col-xs-6.col-sm-3
+								.box
+									%img{height:"60",src:"imgs/white_logo.png"}
+									%p
+										+10,000,000
+										%br
+										Minutos vistos
+							.col-xs-6.col-sm-3
+								.box
+									%img{height:"60",src:"imgs/youtube.png"}
+									%p
+										+290,000
+										%br
+										Suscriptores
+							.col-xs-6.col-sm-3
+								.box
+									%img{height:"60",src:"imgs/facebook.png"}
+									%p
+										+190,000
+										%br
+										Fans
+							.col-xs-6.col-sm-3
+								.box
+									%img{height:"60",src:"imgs/twitter.png"}
+									%p
+										+30,000
+										%br
+										Seguidores

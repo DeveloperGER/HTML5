@@ -1,0 +1,92 @@
+.absolute{
+	position:absolute;
+}
+.block{
+	display:block;
+}
+.bold{
+	font-weight:bold;
+}
+.border-top{
+	border-top:solid 1px currentcolor;
+}
+.bottom-space{
+	margin-bottom:1.5em;
+}
+.center-block{
+	margin:0 auto;
+}
+.circle{
+	border-radius:50%;
+}
+.container-80{
+	width:80%;
+}
+.container-90{
+	width:90%;
+}
+.full-height{
+	height:100%;
+}
+.full-width{
+	width:100%;	
+}
+.inline-block{
+	display:inline-block;
+}
+.large-padding{
+	padding:10px 15px;
+}
+.no-border{
+	border:none;
+}
+.no-list{
+	@extend .no-margin;
+	@extend .no-padding;
+	list-style-type:none;
+}
+.no-margin{
+	margin: 0px;
+}
+.no-padding{
+	padding:0px;
+}
+.relative{
+	position:relative;
+}
+.padding-50{
+	padding:50px 0;
+}
+.pull-right{
+	float:right;
+}
+.slim{
+	font-weight:200;
+}
+.small{
+	font-size:14px;
+}
+.text-center{
+	text-align:center;
+}
+.text-left{
+	text-align:left;
+}
+.text-right{
+	text-align:right;
+}
+.title{
+	font-size:50px;
+}
+.top-space{
+	margin-top:1em;
+}
+.top-space--3{
+	margin-top:3em;
+}
+.uppercase{
+	text-transform:uppercase;
+}
+.z-depth{
+	box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)
+}
