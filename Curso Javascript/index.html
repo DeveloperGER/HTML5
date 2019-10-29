@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>CURSO JAVASCRIPT</title>
+	<link rel="stylesheet" href="">
+	<script src="main.js"></script>
+</head>
+<body>
+<div>
+	<input type="text" name="" id="n1"> <br>
+	<input type="text" name="" id="n2"> 
+	
+
+	<button id="but">¡Calcular!</button>
+	<div id="resultado"></div>
+
+</div>
+
+	<!--<script type="text/javascript">
+		boton = document.getElementById("but")
+		boton.onclick = function () {
+			alert("clickeado")
+		}
+	</script>-->
+
+<!--Eventos-->
+	<script type="text/javascript">
+		boton = document.getElementById("but")
+		boton.onclick = function () {
+			n1 = parseInt(document.getElementById("n1").value);
+			n2 = parseInt(document.getElementById("n2").value);
+			r =  document.getElementById("resultado").innerHTML = n1 + n2
+
+
+		}
+	</script>
+
+<!--
+<div>
+	<label>Nombre : </label><input type="text" id="num1">
+	<label>Apellido : </label><input type="text" id="num2">
+	<input type="submit" onclick='
+
+	document.write("Su Nombre Es: " +  document.getElementById("num1").value + "<br>" + "Su Apellido es : " +  document.getElementById("num2").value);' value="Mostrar" >
+
+</div>-->
+</body>
+</html>

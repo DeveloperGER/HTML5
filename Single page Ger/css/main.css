@@ -1,0 +1,344 @@
+body{
+	background: #fff;
+}
+.topper{
+	width: 100%;
+	height: 4px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: #8c43ff;
+	z-index: 10;
+}
+.wall{
+	background: #eee !important;
+	position: relative;
+	height: 100vh;
+	width: 100%;
+}
+.wall .mitad{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 6;
+	color: #444;
+	width: 900px;
+}
+.wall .mitad h1{
+	font-size: 3.8rem;
+	margin: 10px 0 0 0 !important;
+}
+.wall .mitad h1 span{
+	color: #8c43ff;
+}
+.wall .mitad .flow-text{
+	font-weight: 300;
+}
+.wall .avatar img{
+	width: 100%;
+}
+.bienvenida{
+	animation-duration: 1.5s !important;
+}
+.down-arrow{
+	position: absolute;
+	bottom: 2em;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 400px;
+	text-align: center;
+	cursor: pointer;
+	animation: jump .7s infinite;
+}
+.down-arrow svg{
+	width: 67px;
+	height: 67px;
+}
+.down-arrow path{
+	width: 67px;
+	height: 67px;
+	fill: #8c43ff;
+}
+.down-arrow {
+	color: #333;
+	font-weight: 200;
+}
+.elementor-shape-bottom{
+	background: #eee !important;
+	width: 100%;
+}
+.elementor{
+	width: 100%;
+}
+.elementor-shape-top svg {
+	display: block;
+	width: 100%;
+	position: relative;
+	left: 50%;
+	top: 0;
+	-webkit-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
+.shape-top{
+	fill: #fff;
+	-webkit-transform-origin: center;
+	-ms-transform-origin: center;
+	transform-origin: center;
+	-webkit-transform: rotateY(0deg);
+	transform: rotateY(0deg);
+}
+.elementor-shape-bottom svg {
+	display: block;
+	width: 100%;
+	position: relative;
+	left: 50%;
+	top: 0;
+	-webkit-transform: translateX(-50%) rotate(180deg);
+	-ms-transform: translateX(-50%) rotate(180deg);
+	transform: translateX(-50%) rotate(180deg);
+}
+.shape-bottom{
+	fill: #8c43ff;
+	-webkit-transform-origin: center;
+	-ms-transform-origin: center;
+	transform-origin: center;
+	-webkit-transform: rotateY(0deg);
+	transform: rotateY(0deg);
+}
+.acerca{
+	background: #8c43ff;
+	padding: 2em 0 10em 0;
+	color: #fff;
+	width: 100%;
+}
+.acerca .container{
+	width: 700px;
+}
+.acerca h2{
+	font-size: 2.5em !important;
+	color: #fff !important;
+}
+.acerca p{
+	text-align: center;
+	font-size: 20px;
+	color: rgba(255,255,255,.7);
+	font-weight: 200;
+}
+
+.conocimientos{
+	width: 100%;
+}
+.bloques{
+	position: relative;
+	top: -90px;
+	background: #fff;
+	border-radius: 8px;
+	border: 1px solid #E6ECF8;
+	box-shadow: 0 5px 5px 0 rgba(233,240,243,0.5), 0 0 0 1px #E6ECF8;
+	padding: 2em 0;
+	overflow: hidden;
+	z-index: 9;
+}
+.bloque:last-child{
+	border-left: 1px solid #ddd;
+}
+.bloque{
+	text-align: center;
+}
+.bloque i{
+	color: #8c43ff;
+	font-size: 4em;
+}
+.bloque p{
+	font-size: 18px;
+	margin: 0;
+}
+.bloque h2{
+	margin: 5px 0 10px;
+}
+.disenadorA,
+.desarrolladorA{
+	top: -1000px;
+}
+h2{
+	color: #293347;
+	font-size: 2.5em !important;
+}
+.bloque h4{
+	color: #8c43ff;
+	font-weight: 500;
+	margin: 45px 0 4px;
+	font-size: 1.2em;
+}
+.proyectos {
+	width: 100%;
+}
+
+.proyectos h2{
+	margin-bottom: 0 !important;
+}
+.proyectos p.flow-text.center-align,
+.CV p.flow-text.center-align{
+	font-weight: 300;
+	margin: 0;
+	font-size: 19px;
+	color: #333;
+}
+.mistrabajos{
+	margin-top: 3em !important;
+	width: 100%;
+}
+.mistrabajos .card-image{
+	border-radius: 10px;
+	overflow: hidden;
+	width: 290px;
+	height: 170px;
+	border: 1px solid #ddd;
+	margin-bottom: 1em;
+}
+.trabajemos{
+	position: relative;
+	bottom: -110px;
+	width: 100%;
+}
+.trabajemosCaja{
+	background-color: #293347;
+	box-shadow: 0 5px 5px 0 rgba(0,0,0,0.2), 0 0 0 1px #293347;
+	padding: 3.5rem 1.25rem;
+	border-radius: 12px;
+	text-align: center;
+	z-index: 9;
+	position: relative;
+}
+.trabajemosCaja h2{
+	color: #fff;
+	margin: 0!important;
+	font-size: 2rem !important;
+}
+.trabajemosCaja .flow-text{
+	color: rgba(255,255,255,.5);
+	font-size: 1.2rem;
+	margin: 0!important;
+}
+.CV{
+	padding: 9em 0 3em 0;
+	text-align: center;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	background: #eee;
+	width: 100%;
+}
+.CV h2{
+	margin: 0 !important;
+}
+.CVBtn{
+		margin-top: 1em;
+}
+footer{
+	background: #eee;
+	padding: 2em 0;
+	text-align: center;
+	width: 100%;
+}
+footer p{
+	padding: 0 !important;
+	margin: 0 !important; 
+}
+footer strong{
+	color:#8c43ff;
+}
+.githubcodigo{
+	margin-top: 1em;
+}
+.card-title{
+	width: 100%;
+	z-index: 9;
+	text-align: center;
+}
+.card-image img{
+	transition: all .3s;
+}
+.card-image:hover img{
+	transition: all .3s;
+	transform: scale(1.2) rotate(-3deg);
+}
+.card-image:after{
+	content: " ";
+	top: 0;
+	left: 0;
+	position: absolute;
+	background: rgba(0,0,0,.7);
+	height: 100%;
+	width: 100%;
+	transition: all .3s;
+}
+.card-image:hover:after{
+	content: " ";
+	top: 0;
+	left: 0;
+	position: absolute;
+	background: rgba(0,0,0,.2);
+	height: 100%;
+	width: 100%;
+	transition: all .3s;
+}
+@media only screen and (max-width: 993px){
+	.mitad{
+		margin-top: -9px;
+	}
+	.wall .mitad{
+		width: 100%;
+	}
+	.wall .avatar {
+		text-align: center;
+	}
+	.wall .avatar img {
+		width: 140px;
+	}
+	.wall .mitad h1 {
+		font-size: 2.7rem;
+	}
+	.bienvenida{
+    text-align: center;
+	}
+	.down-arrow {
+		bottom: 0em;
+		width: 100%;
+    z-index: 9;
+	}
+	.acerca .container {
+		width: calc(100% - 2em);
+		margin: 0 1em;
+	}
+	.bloque:last-child {
+		margin-top: 2em;
+		padding-top: 1em !important;
+    border-top: 1px solid #ddd;
+    border-left: 0px solid #ddd;
+	}
+	.mistrabajos .card-image {
+		width: 100%;
+	}
+	.trabajemosCaja h2 {
+		margin: 0 0 1em 0!important;
+	}
+	.trabajemosCaja .flow-text {
+		margin: 0 0 2em 0!important;
+	}
+	.trabajemosCaja .escribemeBtn{
+		width: 100%;
+	}
+	.trabajemosCaja .CVBtn{
+		width: 100%;
+		margin-top: 1em;
+	}
+}
+
+
+@keyframes jump{
+	0%   {margin-bottom: 0px;}
+	50%  {margin-bottom: 7px;}
+	100% {margin-bottom: 0px;}
+}

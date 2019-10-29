@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>formulario</title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+
+	<form name="formPalabraas" action="" method="get">
+<input type="text" name="prod" id="inputPalabras">
+
+<button onclick="subPalabras()">Prueba</button>
+
+<script>
+	var verFueraDeLaFuncion = [];    
+function subPalabras(){
+   palabrasDelUsuario = document.getElementById("inputPalabras").value;
+   verFueraDeLaFuncion = palabrasDelUsuario;
+   alert(verFueraDeLaFuncion);
+};
+</script>
+	
+</body>
+</html>
